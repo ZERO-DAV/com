@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع المسابقات</title>
+
+    <!-- ربط مكتبة Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- ربط مكتبة Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- ربط مكتبة Font Awesome للأيقونات -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <!-- ربط مكتبة AOS للحركات -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- ربط ملف CSS الخاص بك -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-light">
+
+    <!-- رأس الموقع -->
+    <header class="bg-dark text-white p-4 shadow-lg">
+        <div class="container">
+            <h1 class="text-center text-3xl font-bold">موقع المسابقات</h1>
+            <nav class="text-center mt-3">
+                <a href="index.html" class="text-white mx-3 text-lg hover:text-gray-400">الرئيسية</a>
+                <a href="/competitions/index.html" class="text-white mx-3 text-lg hover:text-gray-400">المسابقات</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- محتوى الموقع الرئيسي -->
+    <main class="container my-5" data-aos="fade-up">
+        <div class="text-center mb-5">
+            <h2 class="text-2xl font-semibold text-blue-600">مرحبًا بك في موقع المسابقات!</h2>
+            <p class="text-lg text-gray-700 mt-2">استعرض المسابقات التالية وشارك فيها الآن!</p>
+        </div>
+
+        <!-- عرض المسابقات -->
+        <div class="row">
+            <!-- مسابقة 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-lg" data-aos="fade-up" data-aos-delay="100">
+                    <img src="/assets/images/1.jpg" class="card-img-top" alt="مسابقة التصوير">
+                    <div class="card-body">
+                        <h5 class="card-title text-xl font-semibold">مسابقة 1</h5>
+                        <p class="card-text text-gray-600">ندعو جميع عشاق التصوير الفوتوغرافي،
+                             سواء كانوا محترفين أو هواة،
+                              للمشاركة في أروع مسابقة تصوير لعام 2025! 🌍📷 
+                              تهدف المسابقة إلى تسليط الضوء على الإبداع والرؤية الفريدة لكل مصور من خلال عدسته الخاصة. 🌟</p>
+                        <a href="/competitions/1.html" target="_blank" class="btn btn-primary w-full">
+                            <i class="fas fa-trophy mr-2"></i> انتقل للمسابقة
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+    </main>
+
+    <!-- تذييل الموقع -->
+    <footer class="bg-dark text-white text-center p-4 mt-5">
+        <p>جميع الحقوق محفوظة &copy; 2025</p>
+    </footer>
+
+    <!-- ربط مكتبات JavaScript الخاصة بـ Bootstrap و AOS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+    <!-- تفعيل AOS للحركات -->
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>
